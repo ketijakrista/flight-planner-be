@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <History>True|2022-02-12T13:10:38.6075752Z;False|2022-02-12T15:10:02.6114023+02:00;False|2022-02-12T15:09:57.7466355+02:00;False|2022-02-12T15:09:46.4939414+02:00;</History>
+    <_PublishTargetUrl>E:\Projects\FlightPlanner-1st\FlightPlanner-1stIteration\FlightPlanner\bin\Release\net5.0\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>
