@@ -1,11 +1,12 @@
 ﻿using FlightPlanner.Storage;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 
 namespace FlightPlanner.Controllers
 {
     [Route("testing-api")]
     [ApiController]
+    [EnableCors]
     public class TestingApiController : ControllerBase
     {
         [HttpPost]
