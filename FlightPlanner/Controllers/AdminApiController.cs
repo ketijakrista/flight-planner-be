@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FlightPlanner.Controllers
 {
     [Route("admin-api")]
-    [EnableCors]
+    [EnableCors("MyPolicy")]
     [ApiController]
     [Authorize]
     public class AdminApiController : ControllerBase
