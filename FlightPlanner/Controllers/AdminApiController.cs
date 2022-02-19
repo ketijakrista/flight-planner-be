@@ -19,7 +19,7 @@ namespace FlightPlanner.Controllers
             var flight = FlightStorage.GetFlightById(id);
             if (flight == null)
                 return NotFound();
-            
+
             return Ok(flight);
         }
 
@@ -40,7 +40,7 @@ namespace FlightPlanner.Controllers
         public IActionResult DeleteFlights(int id)
         {
             FlightStorage.DeleteFlight(id);
-            
+
             return Ok();
         }
     }
